@@ -1,11 +1,14 @@
 import React from 'react';
+import BigImage from './UI/bigImage/BigImage';
 
 
-function About() {
+function About(props) {
 
 
     return (
-        <div>About</div>
+        <div className='about'>
+            <BigImage bigImage={props.bigImage} />
+        </div>
     );
 }
 

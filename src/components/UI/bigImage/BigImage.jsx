@@ -2,11 +2,11 @@ import React from 'react';
 import classes from './BigImage.module.css';
 
 
-function BigImage() {
-
-
+function BigImage(props) {
     return (
-        <div>BigImage</div>
+        <div className={classes.container}>
+            <img className={classes.bigImage} src={require(`../../../images/${props.bigImage}.png`)} alt="" />
+        </div>
     );
 }
 
