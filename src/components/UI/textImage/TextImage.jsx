@@ -2,11 +2,13 @@ import React from 'react';
 import classes from './TextImage.module.css';
 
 
-function TextImage() {
+function TextImage(props) {
 
 
     return (
-        <div>TextImage</div>
+        <div className={classes.container}>
+            <img className={classes.image} src={require(`../../../images/${props.image}`)} alt="" />
+        </div>
     );
 }
 

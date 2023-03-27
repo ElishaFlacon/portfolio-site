@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    max-width: 128px;
+    max-height: 128px;
+}

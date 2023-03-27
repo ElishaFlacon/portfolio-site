@@ -7,7 +7,7 @@ function About(props) {
 
     return (
         <div className='about'>
-            <BigImage bigImage={props.bigImage} />
+            <BigImage image={props.image} />
         </div>
     );
 }

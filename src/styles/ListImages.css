@@ -1,12 +1,8 @@
-.container {
+.list-images {
+    margin: 0;
     display: flex;
     flex-direction: row;
     text-align: center;
     align-items: center;
     justify-content: center;
-}
-
-.image {
-    max-width: 512px;
-    max-height: 256px;
 }
