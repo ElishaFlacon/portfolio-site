@@ -1,8 +1,9 @@
 .list-images {
-    margin: 0;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 14px;
 }

@@ -10,3 +10,19 @@
     max-width: 128px;
     max-height: 128px;
 }
+
+.rotate {
+    transition: all 0.15s;
+}
+
+.rotate:hover {
+    rotate: 10deg;
+}
+
+.lens {
+    transition: all 0.15s;
+}
+
+.lens:hover {
+    transform: scale(85%);
+}
