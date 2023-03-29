@@ -7,3 +7,10 @@
     max-width: 1200px;
     overflow: hidden;
 }
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
