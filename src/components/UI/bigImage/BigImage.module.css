@@ -20,7 +20,10 @@
 
 @keyframes flaconShake {
 
-    0%,
+    0% {
+        transform: rotate(0deg);
+    }
+
     40%,
     80% {
         transform: rotate(18deg);
