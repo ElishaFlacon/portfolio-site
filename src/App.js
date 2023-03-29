@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 
 function App() {
 
-    const aboutImage = 'flacon.png';
+    const aboutImages = ['hello.png', 'flacon.png'];
 
     const toolsImages = ['js.png', 'python.png', 'temp.png', 'js.png', 'python.png', 'js.png', 'python.png', 'js.png', 'python.png', 'js.png', 'python.png', 'js.png', 'python.png',];
     const toolsText = 'temp_text.png';
@@ -18,7 +18,7 @@ function App() {
 
     return (
         <div className="app">
-            <About image={aboutImage} />
+            <About images={aboutImages} />
             <Tools images={toolsImages} textImage={toolsText} effect={'rotate'} />
             <Projects images={projectsImages} textImage={projectsText} effect={'lens'} defaultImageSize={200} />
         </div>
