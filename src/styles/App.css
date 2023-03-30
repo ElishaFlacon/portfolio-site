@@ -11,3 +11,19 @@
     color: #fff;
     margin-bottom: 32px;
 }
+
+.chaos {
+    animation: chaosAnim 3s linear;
+}
+
+@keyframes chaosAnim {
+    0% {
+        rotate: 0deg;
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        rotate: 3600deg;
+        filter: hue-rotate(3600deg);
+    }
+}

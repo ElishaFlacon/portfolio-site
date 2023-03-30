@@ -3,6 +3,7 @@
 .tools,
 .projects,
 .find,
+.do-not,
 .find__gh-container {
     margin-top: 80px;
     display: flex;
@@ -39,4 +40,19 @@
 
 .btn {
     margin-top: 24px;
+}
+
+.do-not {
+    margin: 200px 0px 20px 0px;
+}
+
+.do-not img {
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.do-not img:hover {
+    rotate: 2deg;
+    transform: scale(125%);
 }
