@@ -26,3 +26,17 @@
 .find__gh-container {
     gap: 32px;
 }
+
+.find__form-container {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.about {
+    justify-content: space-evenly;
+}
+
+.btn {
+    margin-top: 24px;
+}
