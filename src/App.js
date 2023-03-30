@@ -15,13 +15,35 @@ function App() {
     const projectsImages = [['js.png', 'https://google.com'], ['js.png', 'https://google.com'], ['js.png', 'https://google.com'], ['js.png', 'https://google.com'], ['js.png', 'https://google.com'], ['js.png', 'https://google.com'],];
     const projectsText = 'projects.png';
 
+    const findImage = 'js.png';
+    const findText = 'find_or_email.png';
+    const findButton = 'js.png';
+    const findAction = 'https://docs.google.com/forms/d/e/1FAIpQLSejsO1WzhwREt3aiaNL3rh778qcyYrOGdtW-Swh441CmeADpw/formResponse';
+    const findInputs = [['entry.964796190', 'Name or Company'], ['entry.848323745', 'Email'], ['entry.75551303', 'Message'],];
+
 
     return (
         <div className="app">
             <About images={aboutImages} />
             <Tools images={toolsImages} textImage={toolsText} effect={'rotate'} />
             <Projects images={projectsImages} textImage={projectsText} effect={'lens'} defaultImageSize={200} />
-            <FindMe />
+            <FindMe
+
+                textImage={findText}
+
+                defaultImage={findImage}
+                defaultImageSize={256}
+                effect={'lens'}
+                link={'https://github.com/ElishaFlacon'}
+
+                inputs={findInputs}
+                action={findAction}
+
+                buttonImage={findButton}
+                buttonImageSize={64}
+                buttonEffect={'lens'}
+
+            />
         </div>
     );
 }
