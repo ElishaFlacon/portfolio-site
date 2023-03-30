@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Blocks.css';
+import '../styles/EmailForm.css';
 import DefaultImage from './UI/defaultImage/DefaultImage';
 import InputForm from './UI/form/InputForm';
 

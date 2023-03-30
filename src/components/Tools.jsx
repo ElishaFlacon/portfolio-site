@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Blocks.css';
+import '../styles/Tools.css';
 import ListImages from './ListImages';
 import TextImage from './UI/textImage/TextImage';
 

@@ -18,14 +18,35 @@ function App() {
         }
 
         setChaos('chaos');
-    };
+    }
 
     const aboutImages = ['hello.png', 'flacon.png'];
 
-    const toolsImages = ['js.png', 'python.png', 'temp_image.png', 'js.png', 'python.png', 'js.png', 'python.png', 'js.png', 'python.png', 'js.png', 'python.png', 'js.png', 'python.png',];
+    const toolsImages = [
+        'js.png',
+        'python.png',
+        'temp_image.png',
+        'js.png',
+        'python.png',
+        'js.png',
+        'python.png',
+        'js.png',
+        'python.png',
+        'js.png',
+        'python.png',
+        'js.png',
+        'python.png',
+    ];
     const toolsText = 'stack.png';
 
-    const projectsImages = [['js.png', 'https://google.com'], ['js.png', 'https://google.com'], ['js.png', 'https://google.com'], ['js.png', 'https://google.com'], ['js.png', 'https://google.com'], ['js.png', 'https://google.com'],];
+    const projectsImages = [
+        ['js.png', 'https://google.com'],
+        ['js.png', 'https://google.com'],
+        ['js.png', 'https://google.com'],
+        ['js.png', 'https://google.com'],
+        ['js.png', 'https://google.com'],
+        ['js.png', 'https://google.com'],
+    ];
     const projectsText = 'projects.png';
 
     const doNotImage = 'do_not.png';
@@ -34,7 +55,11 @@ function App() {
     const findText = 'find_or_email.png';
     const findButton = 'js.png';
     const findAction = 'https://docs.google.com/forms/d/e/1FAIpQLSejsO1WzhwREt3aiaNL3rh778qcyYrOGdtW-Swh441CmeADpw/formResponse';
-    const findInputs = [['entry.964796190', 'Name or Company'], ['entry.848323745', 'Email'], ['entry.75551303', 'Message'],];
+    const findInputs = [
+        ['entry.964796190', 'Name or Company'],
+        ['entry.848323745', 'Email'],
+        ['entry.75551303', 'Message'],
+    ];
 
 
     return (

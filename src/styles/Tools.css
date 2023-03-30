@@ -1,0 +1,13 @@
+.tools {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tools__container {
+    margin-top: 80px;
+    max-width: 800px;
+}

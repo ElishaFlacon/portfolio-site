@@ -1,6 +1,6 @@
 import React from 'react';
+import '../styles/ListImages.css';
 import DefaultImage from './UI/defaultImage/DefaultImage';
-import '../styles/ListImages.css'
 
 
 function ListImages(props) {

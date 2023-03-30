@@ -1,0 +1,19 @@
+.find,
+.find__gh-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.find__gh-container {
+    flex-direction: row;
+    gap: 32px;
+}
+
+.find__form-container {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 800px;
+}

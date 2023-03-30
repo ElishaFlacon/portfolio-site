@@ -1,0 +1,18 @@
+.do-not {
+    margin: 200px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.do-not img {
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.do-not img:hover {
+    rotate: 2deg;
+    transform: scale(125%);
+}

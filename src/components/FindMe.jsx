@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Blocks.css';
+import '../styles/FindMe.css';
 import TextImage from './UI/textImage/TextImage';
 import DefaultImage from './UI/defaultImage/DefaultImage';
 import EmailForm from './EmailForm';
