@@ -1,6 +1,9 @@
 .block,
+.about,
 .tools,
-.projects {
+.projects,
+.find,
+.find__gh-container {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -13,4 +16,13 @@
 .projects__container {
     margin-top: 80px;
     max-width: 800px;
+}
+
+.about,
+.find__gh-container {
+    flex-direction: row;
+}
+
+.find__gh-container {
+    gap: 32px;
 }
