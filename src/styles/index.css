@@ -8,6 +8,18 @@ body {
     background-color: #000;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #1a1a1a;
+}
+
 a {
     cursor: pointer;
 }
