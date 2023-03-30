@@ -23,3 +23,8 @@ body::-webkit-scrollbar-thumb {
 a {
     cursor: pointer;
 }
+
+button {
+    background: none;
+    border: none;
+}
