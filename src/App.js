@@ -53,7 +53,7 @@ function App() {
 
     const findImage = 'js.png';
     const findText = 'find_or_email.png';
-    const findButton = 'js.png';
+    const findButton = 'send.png';
     const findAction = 'https://docs.google.com/forms/d/e/1FAIpQLSejsO1WzhwREt3aiaNL3rh778qcyYrOGdtW-Swh441CmeADpw/formResponse';
     const findInputs = [
         ['entry.964796190', 'Name or Company'],
@@ -80,7 +80,7 @@ function App() {
                 action={findAction}
 
                 buttonImage={findButton}
-                buttonImageSize={64}
+                buttonImageSize={368}
                 buttonEffect={'lens'}
             />
         </div>
