@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/EmailForm.css';
 import DefaultImage from './UI/defaultImage/DefaultImage';
 import InputForm from './UI/form/InputForm';
@@ -6,21 +6,40 @@ import InputForm from './UI/form/InputForm';
 
 function EmailForm(props) {
 
+    const [submitted, setSubmitted] = useState(false);
+
     const inputs = props.inputs.map((data) => {
         return <InputForm name={data[0]} placeholder={data[1]} />
     });
 
+    const reloadWindowWhenSubmitted = () => {
+        if (!submitted) {
+            return;
+        }
+
+        window.location.reload();
+    }
+
 
     return (
-        <form className='form' action={props.action} method="POST">
+        <div>
+            <iframe
+                name="hidden_iframe"
+                id="hidden_iframe"
+                title='none'
+                style={{ "display": "none" }}
+                onLoad={() => reloadWindowWhenSubmitted()}
+            />
 
-            {inputs}
+            <form className='form' action={props.action} method="POST" target='hidden_iframe' onSubmit={() => setSubmitted(true)}>
 
-            <button class="btn" type="submit" name="send" value="button">
-                <DefaultImage image={props.buttonImage} imageSize={props.buttonImageSize} effect={props.effect} />
-            </button>
+                {inputs}
 
-        </form>
+                <button class="btn" type="submit" name="send" value="button">
+                    <DefaultImage image={props.buttonImage} imageSize={props.buttonImageSize} effect={props.effect} />
+                </button>
+            </form>
+        </div>
     );
 }
 
