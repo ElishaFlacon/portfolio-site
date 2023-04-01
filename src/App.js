@@ -38,14 +38,14 @@ function App() {
 
     const projectsImages = [
         ['solve_ege.png', 'https://github.com/ElishaFlacon/solve-ege/'],
-        ['js.png', 'https://github.com/ElishaFlacon/compares-faces/'],
-        ['js.png', 'https://github.com/ElishaFlacon/telegram-bot-coffee-cafe/'],
+        ['compare.png', 'https://github.com/ElishaFlacon/compares-faces/'],
+        ['coffee.png', 'https://github.com/ElishaFlacon/telegram-bot-coffee-cafe/'],
         ['calc.png', 'https://elishaflacon.github.io/calculator-react-js/'],
         ['calc_js.png', 'https://elishaflacon.github.io/calculator-native-js/'],
-        ['js.png', 'https://elishaflacon.github.io/todo-list-native-js/'],
-        ['js.png', 'https://elishaflacon.github.io/ai-landing/'],
+        ['todo.png', 'https://elishaflacon.github.io/todo-list-native-js/'],
+        ['ai_face.png', 'https://elishaflacon.github.io/ai-landing/'],
         ['bulls.png', 'https://elishaflacon.github.io/bulls-on-the-block/'],
-        ['wtf.png', 'https://google.com'],
+        ['wtf.png', 'https://elishaflacon.github.io/xynex-v2/'],
     ];
     const projectsText = 'projects.png';
 
