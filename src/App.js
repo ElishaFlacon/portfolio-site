@@ -25,33 +25,33 @@ function App() {
     const toolsImages = [
         'js.png',
         'python.png',
-        'temp_image.png',
-        'js.png',
-        'python.png',
-        'js.png',
-        'python.png',
-        'js.png',
-        'python.png',
-        'js.png',
-        'python.png',
-        'js.png',
-        'python.png',
+        'react.png',
+        'node.png',
+        'express.png',
+        'html.png',
+        'css.png',
+        'sass.png',
+        'postgresql.png',
+        'git.png',
     ];
     const toolsText = 'stack.png';
 
     const projectsImages = [
-        ['js.png', 'https://google.com'],
-        ['js.png', 'https://google.com'],
-        ['js.png', 'https://google.com'],
-        ['js.png', 'https://google.com'],
-        ['js.png', 'https://google.com'],
-        ['js.png', 'https://google.com'],
+        ['solve_ege.png', 'https://github.com/ElishaFlacon/solve-ege/'],
+        ['js.png', 'https://github.com/ElishaFlacon/compares-faces/'],
+        ['js.png', 'https://github.com/ElishaFlacon/telegram-bot-coffee-cafe/'],
+        ['calc.png', 'https://elishaflacon.github.io/calculator-react-js/'],
+        ['calc_js.png', 'https://elishaflacon.github.io/calculator-native-js/'],
+        ['js.png', 'https://elishaflacon.github.io/todo-list-native-js/'],
+        ['js.png', 'https://elishaflacon.github.io/ai-landing/'],
+        ['bulls.png', 'https://elishaflacon.github.io/bulls-on-the-block/'],
+        ['wtf.png', 'https://google.com'],
     ];
     const projectsText = 'projects.png';
 
     const doNotImage = 'do_not.png';
 
-    const findImage = 'js.png';
+    const findImage = 'github.png';
     const findText = 'find_or_email.png';
     const findButton = 'send.png';
     const findAction = 'https://docs.google.com/forms/d/e/1FAIpQLSejsO1WzhwREt3aiaNL3rh778qcyYrOGdtW-Swh441CmeADpw/formResponse';
@@ -66,7 +66,7 @@ function App() {
         <div className={`app ${chaos}`} onAnimationEnd={() => setChaos('')}>
             <About images={aboutImages} />
             <Tools images={toolsImages} textImage={toolsText} effect={'rotate'} />
-            <Projects images={projectsImages} textImage={projectsText} effect={'lens'} defaultImageSize={200} />
+            <Projects images={projectsImages} textImage={projectsText} effect={'lens'} defaultImageSize={256} />
             <DoNot image={doNotImage} chaos={chaos} onChangeChaos={handlerChaos} />
             <FindMe
                 textImage={findText}
