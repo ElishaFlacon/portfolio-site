@@ -17,3 +17,10 @@
     width: 100%;
     max-width: 800px;
 }
+
+@media screen and (max-width: 560px) {
+
+    .find__gh-container {
+        flex-direction: column-reverse;
+    }
+}

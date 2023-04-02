@@ -7,3 +7,10 @@
     justify-content: space-between;
     gap: 14px;
 }
+
+@media screen and (max-width: 560px) {
+
+    .list-images {
+        justify-content: center;
+    }
+}

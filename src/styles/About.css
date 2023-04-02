@@ -1,7 +1,16 @@
 .about {
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+    .about {
+        margin-top: 30px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 48px;
+    }
 }
