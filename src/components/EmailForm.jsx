@@ -9,7 +9,7 @@ function EmailForm(props) {
     const [submitted, setSubmitted] = useState(false);
 
     const inputs = props.inputs.map((data) => {
-        return <InputForm name={data[0]} placeholder={data[1]} />
+        return <InputForm name={data[0]} placeholder={data[1]} key={data[0]} />
     });
 
     const reloadWindowWhenSubmitted = () => {
@@ -35,7 +35,7 @@ function EmailForm(props) {
 
                 {inputs}
 
-                <button class="btn" type="submit" name="send" value="button">
+                <button className="btn" type="submit" name="send" value="button">
                     <DefaultImage image={props.buttonImage} imageSize={props.buttonImageSize} effect={props.effect} />
                 </button>
             </form>
