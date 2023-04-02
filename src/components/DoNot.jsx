@@ -7,7 +7,7 @@ function DoNot(props) {
 
 
     return (
-        <div div className='do-not' onClick={() => props.onChangeChaos()}>
+        <div className='do-not' onClick={() => props.onChangeChaos()}>
             <TextImage image={props.image} imageSize={props.imageSize} />
         </div >
     );
