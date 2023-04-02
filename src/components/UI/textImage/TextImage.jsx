@@ -7,8 +7,8 @@ function TextImage(props) {
     // первое значение в массиве это высота, второе это ширина картинки
     const imageSize = props.imageSize || [256, 768];
     const styles = {
-        'max-height': imageSize[0],
-        'max-width': imageSize[1],
+        maxHeight: imageSize[0],
+        maxWidth: imageSize[1],
     };
 
 

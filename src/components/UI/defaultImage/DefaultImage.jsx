@@ -7,8 +7,8 @@ function DefaultImage(props) {
     const imgSize = props.imageSize || 128;
 
     const styles = {
-        'max-width': imgSize,
-        'max-height': imgSize,
+        maxWidth: imgSize,
+        maxHeight: imgSize,
     };
 
 
