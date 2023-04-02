@@ -1,6 +1,6 @@
 {
-    "homepage": "https://elishaflacon.github.io/site-portfolio/",
-    "name": "site-portfolio",
+    "homepage": "https://elishaflacon.github.io/portfolio-site/",
+    "name": "portfolio-site",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
