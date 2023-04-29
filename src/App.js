@@ -41,6 +41,7 @@ function App() {
         ['compare.png', 'https://github.com/ElishaFlacon/compares-faces/'],
         ['coffee.png', 'https://github.com/ElishaFlacon/telegram-bot-coffee-cafe/'],
         ['calc.png', 'https://elishaflacon.github.io/calculator-react-js/'],
+        ['flappy_bird.png', 'https://github.com/ElishaFlacon/flappy-bird-but-face-position-control'],
         ['calc_js.png', 'https://elishaflacon.github.io/calculator-native-js/'],
         ['todo.png', 'https://elishaflacon.github.io/todo-list-native-js/'],
         ['ai_face.png', 'https://elishaflacon.github.io/ai-landing/'],
