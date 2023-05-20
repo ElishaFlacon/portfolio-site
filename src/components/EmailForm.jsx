@@ -17,7 +17,9 @@ function EmailForm(props) {
             return;
         }
 
-        window.location.reload();
+        // чтобы работало и в Safari
+        window.location.reload(true);
+        // window.location.reload();
     }
 
 
