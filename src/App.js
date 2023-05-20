@@ -37,12 +37,11 @@ function App() {
     const toolsText = 'stack.png';
 
     const projectsImages = [
-        ['solve_ege.png', 'https://github.com/ElishaFlacon/solve-ege/'],
-        ['compare.png', 'https://github.com/ElishaFlacon/compares-faces/'],
-        ['coffee.png', 'https://github.com/ElishaFlacon/telegram-bot-coffee-cafe/'],
-        ['calc.png', 'https://elishaflacon.github.io/calculator-react-js/'],
+        ['dosy.png', 'https://github.com/ElishaFlacon/dosy'],
         ['flappy_bird.png', 'https://github.com/ElishaFlacon/flappy-bird-but-face-position-control'],
-        ['calc_js.png', 'https://elishaflacon.github.io/calculator-native-js/'],
+        ['solve_ege.png', 'https://github.com/ElishaFlacon/solve-ege/'],
+        ['calc.png', 'https://elishaflacon.github.io/calculator-react-js/'],
+        ['coffee.png', 'https://github.com/ElishaFlacon/telegram-bot-coffee-cafe/'],
         ['todo.png', 'https://elishaflacon.github.io/todo-list-native-js/'],
         ['ai_face.png', 'https://elishaflacon.github.io/ai-landing/'],
         ['bulls.png', 'https://elishaflacon.github.io/bulls-on-the-block/'],
