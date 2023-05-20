@@ -1,3 +1,11 @@
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .app {
     width: 100%;
     height: auto;
