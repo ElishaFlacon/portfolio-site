@@ -18,6 +18,7 @@ a {
     overflow: hidden;
     color: #fff;
     margin-bottom: 32px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .chaos {
