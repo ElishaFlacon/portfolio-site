@@ -3,7 +3,6 @@ import classes from './InputForm.module.css';
 
 
 function InputForm(props) {
-
     const [inputValue, setInputValue] = useState('');
 
 

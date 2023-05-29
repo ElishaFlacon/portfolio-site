@@ -3,7 +3,6 @@ import classes from './BigImage.module.css';
 
 
 function BigImage(props) {
-
     const [shake, setShake] = useState('');
 
     const imageClass = () => {
@@ -18,6 +17,7 @@ function BigImage(props) {
         return `${classes.bigImage}`;
     }
 
+    
     return (
         <div className={classes.container}>
             <img

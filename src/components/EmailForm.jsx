@@ -5,7 +5,6 @@ import InputForm from './UI/form/InputForm';
 
 
 function EmailForm(props) {
-
     const [submitted, setSubmitted] = useState(false);
 
     const inputs = props.inputs.map((data) => {
@@ -34,7 +33,6 @@ function EmailForm(props) {
             />
 
             <form className='form' action={props.action} method="POST" target='hidden_iframe' onSubmit={() => setSubmitted(true)}>
-
                 {inputs}
 
                 <button className="btn" type="submit" name="send" value="button">

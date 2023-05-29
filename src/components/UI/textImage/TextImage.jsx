@@ -3,7 +3,6 @@ import classes from './TextImage.module.css';
 
 
 function TextImage(props) {
-
     // первое значение в массиве это высота, второе это ширина картинки
     const imageSize = props.imageSize || [256, 768];
     const styles = {

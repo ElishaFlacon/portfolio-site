@@ -3,14 +3,12 @@ import classes from './DefaultImage.module.css';
 
 
 function DefaultImage(props) {
-
     const imgSize = props.imageSize || 128;
 
     const styles = {
         maxWidth: imgSize,
         maxHeight: imgSize,
     };
-
 
     const checkEffect = (state) => {
         switch (state) {
@@ -27,7 +25,6 @@ function DefaultImage(props) {
         ${classes.image} 
         ${checkEffect(props.effect)}
     `;
-
 
     const returnedObject = (link) => {
         if (!link) {
@@ -47,6 +44,7 @@ function DefaultImage(props) {
         );
     }
 
+    
     return (
         returnedObject(props.link)
     );

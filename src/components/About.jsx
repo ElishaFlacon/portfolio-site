@@ -4,8 +4,6 @@ import BigImage from './UI/bigImage/BigImage';
 
 
 function About(props) {
-
-
     return (
         <div className='about'>
             <BigImage image={props.images[0]} />

@@ -4,11 +4,8 @@ import DefaultImage from './UI/defaultImage/DefaultImage';
 
 
 function ListImages(props) {
-
     const images = props.images.map((data) => {
-
         if (!Array.isArray(data)) {
-
             return <DefaultImage image={data} key={data} imageSize={props.imageSize} effect={props.effect} />
         }
 
