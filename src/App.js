@@ -8,7 +8,6 @@ import DoNot from './components/DoNot';
 
 
 function App() {
-
     const [chaos, setChaos] = useState('');
 
     const handlerChaos = () => {
@@ -49,7 +48,7 @@ function App() {
     ];
     const projectsText = 'projects.png';
 
-    const doNotImage = 'do_not.png';
+    const doNotImage = 'silly.gif';
 
     const findImage = 'github.png';
     const findText = 'find_or_email.png';
@@ -63,7 +62,8 @@ function App() {
 
 
     return (
-        <div className={`app ${chaos}`} onAnimationEnd={() => setChaos('')}>
+        // old <div className={`app ${chaos}`} onAnimationEnd={() => setChaos('')}>
+        <div className='app'>
             <About images={aboutImages} />
             <Tools images={toolsImages} textImage={toolsText} effect={'rotate'} />
             <Projects images={projectsImages} textImage={projectsText} effect={'lens'} defaultImageSize={256} />
