@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1ec2d2c9c0f394155b26",
-    "url": "/portfolio-site/static/css/main.fb7b6657.chunk.css"
+    "revision": "207ad93f00a2a1ea51da",
+    "url": "/portfolio-site/static/css/main.0b1a7d8d.chunk.css"
   },
   {
-    "revision": "1ec2d2c9c0f394155b26",
-    "url": "/portfolio-site/static/js/main.1ec2d2c9.chunk.js"
+    "revision": "207ad93f00a2a1ea51da",
+    "url": "/portfolio-site/static/js/main.207ad93f.chunk.js"
   },
   {
     "revision": "1708fb4cc8667208f489",
@@ -20,16 +20,28 @@ self.__precacheManifest = [
     "url": "/portfolio-site/static/media/ai_face.0bebeee1.svg"
   },
   {
-    "revision": "882f9e81bb348ce8cc9bd281a25b8d3a",
-    "url": "/portfolio-site/static/media/bulls.882f9e81.svg"
+    "revision": "247d8d51472bd7ad58ca23bcdffd48d6",
+    "url": "/portfolio-site/static/media/bulls.247d8d51.svg"
   },
   {
     "revision": "e9108c3b3f82645ceb5df70ee95c7764",
     "url": "/portfolio-site/static/media/calc.e9108c3b.svg"
   },
   {
+    "revision": "1e8cc599d7ff1a5881da1e30c548ffe9",
+    "url": "/portfolio-site/static/media/cloack.1e8cc599.svg"
+  },
+  {
     "revision": "7ade30093ce7e2fef862a62aee81a5ed",
     "url": "/portfolio-site/static/media/coffee.7ade3009.svg"
+  },
+  {
+    "revision": "fdc4bac2375f93261d1d16aa28c5ff01",
+    "url": "/portfolio-site/static/media/compare.fdc4bac2.svg"
+  },
+  {
+    "revision": "69cfc809d45e799d929038889f0e1768",
+    "url": "/portfolio-site/static/media/converter.69cfc809.svg"
   },
   {
     "revision": "78e7c675ca97241cb0290b4edd8b9b2c",
@@ -70,6 +82,10 @@ self.__precacheManifest = [
   {
     "revision": "8aadfd17f9fd51c0a9327ffcfa23a709",
     "url": "/portfolio-site/static/media/html.8aadfd17.svg"
+  },
+  {
+    "revision": "9576ab6f3426c9c77a8cefd33b04d332",
+    "url": "/portfolio-site/static/media/itwas.9576ab6f.svg"
   },
   {
     "revision": "640a6487b0bc605c9b21aad1f331f394",
@@ -124,7 +140,7 @@ self.__precacheManifest = [
     "url": "/portfolio-site/static/media/wtf.76cf3fc3.svg"
   },
   {
-    "revision": "dc8ee1f45a743c47cedc4b3ba616430f",
+    "revision": "48c315773ef8b0b04ea202194f5952a8",
     "url": "/portfolio-site/index.html"
   }
 ];
