@@ -19,40 +19,40 @@ function App() {
         setChaos('chaos');
     }
 
-    const aboutImages = ['hello.png', 'flacon.png'];
+    const aboutImages = ['hello.svg', 'flacon.svg'];
 
     const toolsImages = [
-        'js.png',
-        'python.png',
-        'react.png',
-        'node.png',
-        'express.png',
-        'html.png',
-        'css.png',
-        'sass.png',
-        'postgresql.png',
-        'git.png',
+        'js.svg',
+        'python.svg',
+        'react.svg',
+        'node.svg',
+        'express.svg',
+        'html.svg',
+        'css.svg',
+        'sass.svg',
+        'postgresql.svg',
+        'git.svg',
     ];
-    const toolsText = 'stack.png';
+    const toolsText = 'stack.svg';
 
     const projectsImages = [
-        ['dosy.png', 'https://github.com/ElishaFlacon/dosy'],
-        ['flappy_bird.png', 'https://github.com/ElishaFlacon/flappy-bird-but-face-position-control'],
-        ['solve_ege.png', 'https://github.com/ElishaFlacon/solve-ege/'],
-        ['calc.png', 'https://elishaflacon.github.io/calculator-react-js/'],
-        ['coffee.png', 'https://github.com/ElishaFlacon/telegram-bot-coffee-cafe/'],
-        ['todo.png', 'https://elishaflacon.github.io/todo-list-native-js/'],
-        ['ai_face.png', 'https://elishaflacon.github.io/ai-landing/'],
-        ['bulls.png', 'https://elishaflacon.github.io/bulls-on-the-block/'],
-        ['wtf.png', 'https://elishaflacon.github.io/xynex-v2/'],
+        ['dosy.svg', 'https://github.com/ElishaFlacon/dosy'],
+        ['flappy_bird.svg', 'https://github.com/ElishaFlacon/flappy-bird-but-face-position-control'],
+        ['solve_ege.svg', 'https://github.com/ElishaFlacon/solve-ege/'],
+        ['calc.svg', 'https://elishaflacon.github.io/calculator-react-js/'],
+        ['coffee.svg', 'https://github.com/ElishaFlacon/telegram-bot-coffee-cafe/'],
+        ['todo.svg', 'https://elishaflacon.github.io/todo-list-native-js/'],
+        ['ai_face.svg', 'https://elishaflacon.github.io/ai-landing/'],
+        ['bulls.svg', 'https://elishaflacon.github.io/bulls-on-the-block/'],
+        ['wtf.svg', 'https://elishaflacon.github.io/xynex-v2/'],
     ];
-    const projectsText = 'projects.png';
+    const projectsText = 'projects.svg';
 
     const doNotImage = 'silly.gif';
 
-    const findImage = 'github.png';
-    const findText = 'find_or_email.png';
-    const findButton = 'send.png';
+    const findImage = 'github.svg';
+    const findText = 'find_or_email.svg';
+    const findButton = 'send.svg';
     const findAction = 'https://docs.google.com/forms/d/e/1FAIpQLSejsO1WzhwREt3aiaNL3rh778qcyYrOGdtW-Swh441CmeADpw/formResponse';
     const findInputs = [
         ['entry.964796190', 'Name or Company'],
