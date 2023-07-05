@@ -36,15 +36,25 @@ function App() {
     const toolsText = 'stack.svg';
 
     const projectsImages = [
-        ['dosy.svg', 'https://github.com/ElishaFlacon/dosy'],
-        ['flappy_bird.svg', 'https://github.com/ElishaFlacon/flappy-bird-but-face-position-control'],
+        ['dosy.svg', 'https://github.com/ElishaFlacon/dosy/'],
+        ['flappy_bird.svg', 'https://github.com/ElishaFlacon/flappy-bird-but-face-position-control/'],
+        ['converter.svg', 'https://github.com/ElishaFlacon/file-converter/'],
+
         ['solve_ege.svg', 'https://github.com/ElishaFlacon/solve-ege/'],
-        ['calc.svg', 'https://elishaflacon.github.io/calculator-react-js/'],
+        ['cloack.svg', 'https://github.com/ElishaFlacon/cloack-dungeon-roguelike/'],
         ['coffee.svg', 'https://github.com/ElishaFlacon/telegram-bot-coffee-cafe/'],
+
+        ['calc.svg', 'https://elishaflacon.github.io/calculator-react-js/'],
+        ['itwas.svg', 'https://github.com/ElishaFlacon/it-was-discord-bot/'],
         ['todo.svg', 'https://elishaflacon.github.io/todo-list-native-js/'],
+
         ['ai_face.svg', 'https://elishaflacon.github.io/ai-landing/'],
+        ['compare.svg', 'https://github.com/ElishaFlacon/dosy/tree/server/'],
         ['bulls.svg', 'https://elishaflacon.github.io/bulls-on-the-block/'],
-        ['wtf.svg', 'https://elishaflacon.github.io/xynex-v2/'],
+
+        // ['wtf.svg', 'https://elishaflacon.github.io/xynex-v2/'],
+        // ['wtf.svg', 'https://github.com/ElishaFlacon/password-generator/'],
+        // ['wtf.svg', 'https://elishaflacon.github.io/xynex-v1/'],
     ];
     const projectsText = 'projects.svg';
 
