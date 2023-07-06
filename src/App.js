@@ -23,13 +23,18 @@ function App() {
 
     const toolsImages = [
         'js.svg',
-        'python.svg',
+        'ts.svg',
         'react.svg',
         'node.svg',
         'express.svg',
-        'html.svg',
-        'css.svg',
+        'redux.svg',
+        'axios.svg',
         'sass.svg',
+        'css.svg',
+        'html.svg',
+        'python.svg',
+        'flask.svg',
+        'django.svg',
         'postgresql.svg',
         'git.svg',
     ];
