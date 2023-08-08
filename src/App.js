@@ -41,9 +41,9 @@ function App() {
     const toolsText = 'stack.svg';
 
     const projectsImages = [
-        ['dosy.svg', 'https://github.com/ElishaFlacon/dosy/'],
-        ['flappy_bird.svg', 'https://github.com/ElishaFlacon/flappy-bird-but-face-position-control/'],
         ['converter.svg', 'https://github.com/ElishaFlacon/file-converter/'],
+        ['flappy_bird.svg', 'https://github.com/ElishaFlacon/flappy-bird-but-face-position-control/'],
+        ['dosy.svg', 'https://github.com/ElishaFlacon/dosy/'],
 
         ['solve_ege.svg', 'https://github.com/ElishaFlacon/solve-ege/'],
         ['cloack.svg', 'https://github.com/ElishaFlacon/cloack-dungeon-roguelike/'],
