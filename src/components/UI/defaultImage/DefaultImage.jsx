@@ -37,14 +37,14 @@ function DefaultImage(props) {
 
         return (
             <div className={classes.container}>
-                <a href={link}>
+                <a href={link} target='_blank'>
                     <img className={imageClass} src={require(`../../../images/${props.image}`)} style={styles} alt="" />
                 </a>
             </div>
         );
     }
 
-    
+
     return (
         returnedObject(props.link)
     );
