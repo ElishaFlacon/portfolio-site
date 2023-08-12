@@ -5,6 +5,7 @@ import Tools from './components/Tools';
 import Projects from './components/Projects';
 import FindMe from './components/FindMe';
 import DoNot from './components/DoNot';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -80,6 +81,7 @@ function App() {
         // old <div className={`app ${chaos}`} onAnimationEnd={() => setChaos('')}>
         <div className='app'>
             <About images={aboutImages} />
+            <Resume />
             <Tools images={toolsImages} textImage={toolsText} effect={'rotate'} />
             <Projects images={projectsImages} textImage={projectsText} effect={'lens'} defaultImageSize={256} />
             <DoNot image={doNotImage} chaos={chaos} onChangeChaos={handlerChaos} />
