@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2ee8e3b8ccc4d8015397",
+    "revision": "5bbd860a4896066395d4",
     "url": "/portfolio-site/static/css/main.95845698.chunk.css"
   },
   {
-    "revision": "2ee8e3b8ccc4d8015397",
-    "url": "/portfolio-site/static/js/main.2ee8e3b8.chunk.js"
+    "revision": "5bbd860a4896066395d4",
+    "url": "/portfolio-site/static/js/main.5bbd860a.chunk.js"
   },
   {
     "revision": "9f344f9bd4375b295267",
@@ -17,7 +17,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "25fca63c1200f8b5f94fe1b26c6ab70a",
-    "url": "/portfolio-site/static/media/frontend.25fca63c.pdf"
+    "url": "/portfolio-site/static/media/Sokolov_Elisey-Frontend_Developer.25fca63c.pdf"
   },
   {
     "revision": "0bebeee1d53fcbfbd91d2b7cc47c0671",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/portfolio-site/static/media/wtf.76cf3fc3.svg"
   },
   {
-    "revision": "8d440da69a913d42c29a22d25bb4f3bf",
+    "revision": "e62a86e478b194c9c5dca48a3f8fdb06",
     "url": "/portfolio-site/index.html"
   }
 ];
