@@ -6,7 +6,12 @@ import '../styles/Resume.css';
 function Resume() {
     return (
         <div className='resume'>
-            <DefaultImage image={'resume.svg'} imageSize={512} effect={'lens'} link={require('../images/frontend.pdf')} />
+            <DefaultImage
+                image={'resume.svg'}
+                imageSize={512}
+                effect={'lens'}
+                link={require('../images/Sokolov_Elisey-Frontend_Developer.pdf')}
+            />
         </div>
     )
 }
