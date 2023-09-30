@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "5bbd860a4896066395d4",
-    "url": "/portfolio-site/static/css/main.95845698.chunk.css"
+    "revision": "d8decf057b7812aa2e0c",
+    "url": "/portfolio-site/static/css/main.8d8cc004.chunk.css"
   },
   {
-    "revision": "5bbd860a4896066395d4",
-    "url": "/portfolio-site/static/js/main.5bbd860a.chunk.js"
+    "revision": "d8decf057b7812aa2e0c",
+    "url": "/portfolio-site/static/js/main.d8decf05.chunk.js"
   },
   {
-    "revision": "9f344f9bd4375b295267",
-    "url": "/portfolio-site/static/js/1.9f344f9b.chunk.js"
+    "revision": "1708fb4cc8667208f489",
+    "url": "/portfolio-site/static/js/1.1708fb4c.chunk.js"
   },
   {
     "revision": "26e5d437f41e8da866a3",
     "url": "/portfolio-site/static/js/runtime~main.26e5d437.js"
-  },
-  {
-    "revision": "25fca63c1200f8b5f94fe1b26c6ab70a",
-    "url": "/portfolio-site/static/media/Sokolov_Elisey-Frontend_Developer.25fca63c.pdf"
   },
   {
     "revision": "0bebeee1d53fcbfbd91d2b7cc47c0671",
@@ -168,7 +164,7 @@ self.__precacheManifest = [
     "url": "/portfolio-site/static/media/wtf.76cf3fc3.svg"
   },
   {
-    "revision": "e62a86e478b194c9c5dca48a3f8fdb06",
+    "revision": "018ad81622eee4dd5d33bfebb24b152e",
     "url": "/portfolio-site/index.html"
   }
 ];
