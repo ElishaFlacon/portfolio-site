@@ -10,7 +10,7 @@ function Resume() {
                 image={'resume.svg'}
                 imageSize={512}
                 effect={'lens'}
-                link={require('../images/Sokolov_Elisey-Frontend_Developer.pdf')}
+                link='https://docdro.id/HVGDL4L/'
             />
         </div>
     )
