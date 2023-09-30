@@ -69,7 +69,7 @@ function App() {
     const findImage = 'github.svg';
     const findText = 'find_or_email.svg';
     const findButton = 'send.svg';
-    const findAction = 'https://docs.google.com/forms/d/e/1FAIpQLSejsO1WzhwREt3aiaNL3rh778qcyYrOGdtW-Swh441CmeADpw/formResponse';
+    const findAction = 'https://docdro.id/HVGDL4L/';
     const findInputs = [
         ['entry.964796190', 'Name or Company'],
         ['entry.848323745', 'Email'],
