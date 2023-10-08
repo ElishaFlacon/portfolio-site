@@ -10,7 +10,7 @@ function Resume() {
                 image={'resume.svg'}
                 imageSize={512}
                 effect={'lens'}
-                link='https://docdro.id/HVGDL4L/'
+                link='https://www.docdroid.net/x9SWtFa/'
             />
         </div>
     )
