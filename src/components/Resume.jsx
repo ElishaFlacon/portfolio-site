@@ -2,15 +2,14 @@ import React from 'react';
 import DefaultImage from './UI/defaultImage/DefaultImage';
 import '../styles/Resume.css';
 
-
-function Resume() {
+function Resume(props) {
     return (
         <div className='resume'>
             <DefaultImage
-                image={'resume.svg'}
+                image={props.resumeImage}
                 imageSize={512}
                 effect={'lens'}
-                link='https://www.docdroid.net/x9SWtFa/'
+                link={props.resumeLink}
             />
         </div>
     )

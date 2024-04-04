@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './styles/App.css';
 import About from './components/About';
 import Tools from './components/Tools';
 import Projects from './components/Projects';
 import FindMe from './components/FindMe';
 import DoNot from './components/DoNot';
 import Resume from './components/Resume';
+import './styles/App.css';
 
 
 function App() {
@@ -19,6 +19,9 @@ function App() {
 
         setChaos('chaos');
     }
+
+    const resumeLink = 'https://eelisey.ru/portfolio-site/sokolov_elisey_frontend_developer.pdf';
+    const resumeImage = 'resume.svg';
 
     const aboutImages = ['hello.svg', 'flacon.svg'];
 
@@ -81,7 +84,7 @@ function App() {
         // old <div className={`app ${chaos}`} onAnimationEnd={() => setChaos('')}>
         <div className='app'>
             <About images={aboutImages} />
-            <Resume />
+            <Resume resumeLink={resumeLink} resumeImage={resumeImage} />
             <Tools images={toolsImages} textImage={toolsText} effect={'rotate'} />
             <Projects images={projectsImages} textImage={projectsText} effect={'lens'} defaultImageSize={256} />
             <DoNot image={doNotImage} chaos={chaos} onChangeChaos={handlerChaos} />
