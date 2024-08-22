@@ -20,7 +20,7 @@ function App() {
         setChaos('chaos');
     }
 
-    const resumeLink = 'https://eelisey.ru/portfolio-site/sokolov_elisey_frontend_developer.pdf';
+    const resumeLink = 'https://tyumen.hh.ru/resume/6770c011ff0d98945e0039ed1f64374e447877';
     const resumeImage = 'resume.svg';
 
     const aboutImages = ['hello.svg', 'flacon.svg'];
