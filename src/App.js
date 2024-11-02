@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import About from './components/About';
+// import Resume from './components/Resume';
 import Tools from './components/Tools';
 import Projects from './components/Projects';
-import FindMe from './components/FindMe';
 import DoNot from './components/DoNot';
-import Resume from './components/Resume';
+// import FindMe from './components/FindMe';
 import './styles/App.css';
 
 
@@ -20,8 +20,8 @@ function App() {
         setChaos('chaos');
     }
 
-    const resumeLink = 'https://tyumen.hh.ru/resume/6770c011ff0d98945e0039ed1f64374e447877';
-    const resumeImage = 'resume.svg';
+    // const resumeLink = '';
+    // const resumeImage = 'resume.svg';
 
     const aboutImages = ['hello.svg', 'flacon.svg'];
 
@@ -69,26 +69,26 @@ function App() {
 
     const doNotImage = 'silly.gif';
 
-    const findImage = 'github.svg';
-    const findText = 'find_or_email.svg';
-    const findButton = 'send.svg';
-    const findAction = 'https://docs.google.com/forms/d/e/1FAIpQLSejsO1WzhwREt3aiaNL3rh778qcyYrOGdtW-Swh441CmeADpw/formResponse';
-    const findInputs = [
-        ['entry.964796190', 'Name or Company'],
-        ['entry.848323745', 'Email'],
-        ['entry.75551303', 'Message'],
-    ];
+    // const findImage = 'github.svg';
+    // const findText = 'find_or_email.svg';
+    // const findButton = 'send.svg';
+    // const findAction = 'https://docs.google.com/forms/d/e/1FAIpQLSejsO1WzhwREt3aiaNL3rh778qcyYrOGdtW-Swh441CmeADpw/formResponse';
+    // const findInputs = [
+    //     ['entry.964796190', 'Name or Company'],
+    //     ['entry.848323745', 'Email'],
+    //     ['entry.75551303', 'Message'],
+    // ];
 
 
     return (
         // old <div className={`app ${chaos}`} onAnimationEnd={() => setChaos('')}>
         <div className='app'>
             <About images={aboutImages} />
-            <Resume resumeLink={resumeLink} resumeImage={resumeImage} />
+            {/* <Resume resumeLink={resumeLink} resumeImage={resumeImage} /> */}
             <Tools images={toolsImages} textImage={toolsText} effect={'rotate'} />
             <Projects images={projectsImages} textImage={projectsText} effect={'lens'} defaultImageSize={256} />
             <DoNot image={doNotImage} chaos={chaos} onChangeChaos={handlerChaos} />
-            <FindMe
+            {/* <FindMe
                 textImage={findText}
 
                 defaultImage={findImage}
@@ -102,7 +102,7 @@ function App() {
                 buttonImage={findButton}
                 buttonImageSize={368}
                 buttonEffect={'lens'}
-            />
+            /> */}
         </div>
     );
 }
